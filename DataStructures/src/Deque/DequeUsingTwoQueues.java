@@ -80,11 +80,11 @@ public class DequeUsingTwoQueues {
         deque.addRear(2);
         deque.addFront(3);
 
-        System.out.println("Remove Front: " + deque.removeFront()); // Output: 3
-        System.out.println("Peek Rear: " + deque.peekRear()); // Output: 2
-        System.out.println("Remove Rear: " + deque.removeRear()); // Output: 2
-        System.out.println("Remove Front: " + deque.removeFront()); // Output: 1
-        System.out.println("Is Empty: " + deque.isEmpty()); // Output: true
+        System.out.println("Remove Front: " + deque.removeFront()); 
+        System.out.println("Peek Rear: " + deque.peekRear()); 
+        System.out.println("Remove Rear: " + deque.removeRear());
+        System.out.println("Remove Front: " + deque.removeFront()); 
+        System.out.println("Is Empty: " + deque.isEmpty()); 
     }
 }
 
