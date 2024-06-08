@@ -3,7 +3,7 @@ package FIFOQueue;
 import java.util.LinkedList;
 import java.util.Queue;
 
-public class FIFOLinkedList {
+public class FIFOSequence {
     public static void main(String[] args) {
         Queue<Integer> queue = new LinkedList<>();
         
