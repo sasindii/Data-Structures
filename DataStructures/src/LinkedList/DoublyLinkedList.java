@@ -18,12 +18,12 @@ public class DoublyLinkedList {
         // Head of the list
         private Node head;
     
-        // Constructor to initialize the list
+        // initialize the list
         public DoublyLinkedList() {
             this.head = null;
         }
     
-        // Method to insert a new node at the end of the list
+        // insert a new node at the end of the list
         public void insert(int data) {
             Node newNode = new Node(data);
             if (head == null) {
@@ -38,7 +38,7 @@ public class DoublyLinkedList {
             }
         }
     
-        // Method to display the list
+        // display the list
         public void display() {
             Node current = head;
             while (current != null) {
@@ -48,7 +48,7 @@ public class DoublyLinkedList {
             System.out.println("null");
         }
     
-        // Method to delete a node by value
+        // delete a node by value
         public void delete(int data) {
             if (head == null) return;
     
@@ -69,7 +69,7 @@ public class DoublyLinkedList {
             }
         }
     
-        // Method to search for a node by value
+        // search for a node by value
         public boolean search(int data) {
             Node current = head;
             while (current != null) {
